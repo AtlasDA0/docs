@@ -1,10 +1,46 @@
----
-description: An Insight into the Vision and Objectives of Atlas DAO
-cover: .gitbook/assets/Interchain NFT based DAO.jpeg
-coverY: 0
----
+# Atlas Dapp docs
 
-# Introduction
+This website is built using [Docusaurus 2](https://docusaurus.io/).
 
-Atlas DAO is a dynamic and forward-thinking DAO at the heart of the interchain powered by Atlas NFT. Our mission is to generate sustainable value and passive yield with our esteemed members, all while nurturing a flourishing ecosystem. With a firm commitment to decentralization, Atlas DAO operates through on-chain governance, ensuring utmost autonomy, security, and transparency. The governance structure unlocks collaboration for Atlas NFT holders, bringing ownership to the collective vision of developing protocols, DAPPS, web3 tooling, and games. Engage yourself in the captivating universe of DAO and NFT, and become an integral part of Atlas DAO’s journey.
+## Contributing
 
+Interested in contributing to Atlas DAO? Check out [CONTRIBUTING.md](./CONTRIBUTING.md).
+
+
+### Installation
+
+```
+$ yarn
+```
+
+### Local Development
+
+```
+$ yarn start
+```
+
+This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+
+### Build
+
+```
+$ yarn build
+```
+
+This command generates static content into the `build` directory and can be served using any static contents hosting service.
+
+### Deployment
+
+Using SSH:
+
+```
+$ USE_SSH=true yarn deploy
+```
+
+Not using SSH:
+
+```
+$ GIT_USER=<Your GitHub username> yarn deploy
+```
+
+If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
