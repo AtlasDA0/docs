@@ -7,10 +7,10 @@ const {
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "DAO DAO",
+  title: "Atlas DAO dapp",
   tagline: "DAOs for everyone",
-  url: "https://docs.daodao.zone",
-  organizationName: "DA0-DA0", // Github org name
+  url: "https://docs.atlasdao.zone",
+  organizationName: "AtlasDA0", // Github org name
   projectName: "docs", // Usually your repo name.
   deploymentBranch: "gh-pages",
   trailingSlash: false,
@@ -30,7 +30,7 @@ const config = {
           path: "docs",
           routeBasePath: "/",
           sidebarPath: require.resolve("./sidebars.js"),
-          editUrl: "https://github.com/DA0-DA0/docs/tree/main/",
+          editUrl: "https://github.com/AtlasDA0/docs/tree/main/",
         },
         blog: {
           showReadingTime: true,

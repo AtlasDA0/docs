@@ -24,13 +24,14 @@ A borrower may list various assets as collateral & signal their desired terms. T
 3. Decide which assets you are to put up as collateral, & then continue to the next page
 4.  Select your desired Loan Terms:
 
-    a. \
-    b. \
-    c. \
-    d.
-5. Confirm the new `ListCollateral` msg
+    a. **Principle: `all IBC supported coins`**\
+    b. **Interest: `% of principle to be required during repayment`**\
+    c.  **Duration: `total blocks in loan lifecycle`**
+5. Confirm the new `ListCollateral` msg. The ui creates the msgs to approve the loan contract to transfer the nft into escrow, upon a loanTerms being accepted & funded.
 
-GAS & FEE NOTICE: _**your tx will fail unless you provide ONLY the exact fee configured.** These values will be provided to the front end through the key-object storage of the AtlasDAO_
+:::info
+**GAS & FEE NOTICE:** _**your tx will fail unless you provide ONLY the exact fee configured.**\
+These values will be provided to the front end through the key-object storage of the AtlasDAO_
+:::
 
-
-### _TODO: Request LoanTerms for NFT collection_
+## [Roadmap](../introduction/atlas-dapp/roadmap)

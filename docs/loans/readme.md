@@ -1,32 +1,36 @@
 ---
 description: >-
-  Put NFT's up as collateral to borrow assets. Fund a Loan to passively collect
-  more tokens. Collect NFT's from defaulted loans.
+ 
 ---
 
-# Overview
+# Non-Custodial Loans
+*Put NFT's up as collateral to borrow assets. Fund a Loan to passively collect more tokens. Collect NFT's from defaulted loans.*
 
-**Loan Borrower's Overview**
+### List  Collateral Offer
 
-The lifecycle begins by broadcasting a `list_collateral` to the contract. Whether you want your loan request visible to all or exclusively to specified addresses, the choice is yours.
+The lifecycle begins by broadcasting a `list_collateral` to the contract. 
+**To participate as a borrower,** you must provide collateral.
+ A **loan offer** with your preferences may be accepted, or you may also recieve offers which you may accept or reject.
+ In your loan offer, state the desired:
+1. **principle capital**
+2. **loan duration**,
+3. **intrest rewarded to loaner**.
 
-**To secure the loan,** you must provide collateral. In your listing, state the desired principle capital and the loan duration. Peer lenders can then make offers or propose modifications to your preferred terms.
-
-**Upon accepting an offer** in the form of cosmos native assets (STARS), the coins will go in your wallet. Simultaneously, **your collateral is moved into escrow** via smart contract, **for an agreed upon loan period.**
-
-**Successfully repaying the loan** before its expiration results in the retrieval of your collateral;
-
-**Defaulting on the repayment of an accepted loan** results in the lender **taking ownership of your collateral!**
-
-
-**Lender's Overview**
+### Create A Loan Offer
 
 **Lenders can loan assets** in pursue of guaranteed return, whether it be:\
 \- principle + agreed upon interest\
-\- assets in collateral escrow
+\- assets in collateral escrow\
+**_When the borrower repays the loan, the capital, plus the agreed fee, is returned to the lender._**
 
-_When the borrower repays the loan, the capital, plus the agreed fee, is returned to the lender._
+### Accept or Reject A Loan Offer
+**Upon accepting an offer**, the coins will go in your wallet. Simultaneously, **your collateral is moved into escrow** via smart contract, **for an agreed upon loan period.**
 
-In cases of default, the NFT collateral is now in ownership of the lender, akin to acquiring the NFTs at a substantial discount.
+### Repaying The Loan
+**Successfully repaying the loan** before its expiration results in the retrieval of your collateral;
+
+### Loan Default
+**Defaulting on the repayment of an accepted loan** results in the lender **taking ownership of your collateral!**
+
 
 This unlocks more on-chain methods for token-economy implementations.
