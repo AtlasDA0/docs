@@ -2,6 +2,8 @@
 
 ◻️Bypass fees for Atlas NFT holders
 
+◻️Integrate Leap notification
+
 ◻️Gated NFT raffle
 
 ◻️Collection loans offers
