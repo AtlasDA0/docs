@@ -19,8 +19,11 @@ All contract configurations will have a dao set as the admin able to change thes
 
 ### Fees
 * a set fee of `100 STARS`, every time a raffle is created
-* `3%` of total from raffle ticket sales
-* a set fee of `5 STARS`, every time a nft is put up for loan *(collateral deposit)*
-* `4.20%` of repayment from each loan
+* `10%` of total from raffle ticket sales
+* a set fee of `10 STARS`, every time a nft is put up for loan *(collateral deposit)*
+* `10%` of repayment from each loan
 
 ### [Proposals](https://daodao.zone/dao/juno1hcldlknu2mn3exckkg75tyzjnderl95zyjte2wl495z9jla0rmdqegxlxx/home)
+
+### Tests & Audits
+Altas-dao contracts have basic coverage tests, as well as a 3rd party peer review. A true audit is TBD.

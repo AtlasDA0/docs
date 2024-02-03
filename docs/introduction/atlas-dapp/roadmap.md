@@ -5,7 +5,6 @@ description: Roadmaps
 
 # Roadmap
 
-
 ## Q1 
 - *MVP development, closed-beta testing, initial ui evolution*
 - *Contract Unit Tests, 3rd party peer review*
@@ -13,10 +12,8 @@ description: Roadmaps
 - Commonwealth discussion - Mainnet deployment & Configuration
 - Store Cosmwasm Prop: Stargaze-1
 - UI support for one-click IBC transfers
-- Customize Profile, Favorite & Follow Loans
+- Customize Profile, Favorite & Follow Events
 - Leap Wallet Notifications
-- Discord Bot
-
 
 ## Q2
 - Improved NFT collection data support
@@ -28,10 +25,10 @@ description: Roadmaps
 - DAODAO-widget
 - Tiered raffle tickets
 - Support to set refunds for ticket cost
+- Loan & Raffle Calculator
+- Discord Bot
 
 ## Q3-Q4
-- private loan request
--
 
 ## 2025
 
