@@ -23,6 +23,9 @@ All contract configurations will have a dao set as the admin able to change thes
 * a set fee of `10 STARS`, every time a nft is put up for loan *(collateral deposit)*
 * `10%` of repayment from each loan
 
+## Delegate Discounts 
+A feature to reduce the required fees for app actions if connected account has staked tokens of various communities.
+
 ### [Proposals](https://daodao.zone/dao/juno1hcldlknu2mn3exckkg75tyzjnderl95zyjte2wl495z9jla0rmdqegxlxx/home)
 
 ### Tests & Audits

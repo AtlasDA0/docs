@@ -14,6 +14,7 @@ description: Roadmaps
 - UI support for one-click IBC transfers
 - Customize Profile, Favorite & Follow Events
 - Leap Wallet Notifications
+- Delegate Discounts
 
 ## Q2
 - Improved NFT collection data support

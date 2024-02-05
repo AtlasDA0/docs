@@ -12,16 +12,16 @@ The lifecycle begins by broadcasting a `list_collateral` to the contract.
 **To participate as a borrower,** you must provide collateral.
  A **loan offer** with your preferences may be accepted, or you may also recieve offers which you may accept or reject.
  In your loan offer, state the desired:
-1. **principle capital**
-2. **loan duration**,
-3. **intrest rewarded to loaner**.
+1. **principle capital** - how much you are asking to borrow
+2. **loan duration** - how long you would like to be able to repay the loan
+3. **intrest rewarded** - interest calculated from the loan principle
 
 ### Create A Loan Offer
 
 **Lenders can loan assets** in pursue of guaranteed return, whether it be:\
 \- principle + agreed upon interest\
 \- assets in collateral escrow\
-**_When the borrower repays the loan, the capital, plus the agreed fee, is returned to the lender._**
+**_When the borrower repays the loan, the capital, plus the agreed interest, is returned to the lender._**
 
 ### Accept or Reject A Loan Offer
 **Upon accepting an offer**, the coins will go in your wallet. Simultaneously, **your collateral is moved into escrow** via smart contract, **for an agreed upon loan period.**
