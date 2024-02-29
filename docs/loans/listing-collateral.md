@@ -19,15 +19,21 @@ A borrower may list various assets as collateral & signal their desired terms. T
 
 ### To List A Collateral & Define Desired Loan Terms:
 
-1. Make sure you have the collateral you want to put up in the account connected to the UI
-2. Once connected, navigate to the **create-new-raffle** page.
-3. Decide which assets you are to put up as collateral, & then continue to the next page
-4.  Select your desired Loan Terms:
+1. Navigate to the **create-new-loan** page.
+![New-loan!](../../static/img/new-loan-button.png)
+
+2. Decide which assets you are to put up as collateral, & then continue to the next page
+![New-loan!](../../static/img/new-loan-confirm-nfts.png)
+3.  Select your desired Loan Terms:
 
     a. **Principle: `all IBC supported coins`**\
     b. **Interest: `% of principle to be required during repayment`**\
     c.  **Duration: `total blocks in loan lifecycle`**
-5. Confirm the new `ListCollateral` msg. The ui creates the msgs to approve the loan contract to transfer the nft into escrow, upon a loanTerms being accepted & funded.
+
+![New-loan!](../../static/img/new-loan-define-terms.png)
+
+4. Confirm the new `ListCollateral` msg. The ui creates the msgs to approve the loan contract to transfer the nft into escrow, upon a loanTerms being accepted & funded.
+
 
 :::info
 **GAS & FEE NOTICE:** _**your tx will fail unless you provide ONLY the exact fee configured.**\

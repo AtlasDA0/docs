@@ -6,11 +6,11 @@ description: Roadmaps
 # Roadmap
 
 ## Q1 
-- *MVP development, closed-beta testing, initial ui evolution*
-- *Contract Unit Tests, 3rd party peer review*
+- ~~*MVP development, closed-beta testing, initial ui evolution*~~
+- ~~*Contract Unit Tests, 3rd party peer review*~~
 - Official audit, source TBD
-- Commonwealth discussion - Mainnet deployment & Configuration
-- Store Cosmwasm Prop: Stargaze-1
+- ~~*Commonwealth discussion - Mainnet deployment & Configuration*~~
+- ~~*Store Cosmwasm Prop: Stargaze-1*~~
 - UI support for one-click IBC transfers
 - Customize Profile, Favorite & Follow Events
 - Leap Wallet Notifications

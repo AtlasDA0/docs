@@ -9,15 +9,21 @@ description: A Dapp governed by Atlas NFT collection, built on Stargaze, for the
 ### Features
 
 ####  [On-Chain Raffles](../raffles)
-- **create custom raffle events** 
-- **verifiable randomness to calculate winner, via [nois.network](https://nois.network)**
+- Create & configure raffles permissionlessly
+- Purchase raffle ticketsVerifiable randomness to determine winner, via Nois Network
+- Admin controlled params to optimize configuration
+- Governance override contract lock via SudoMsg
+- Static fee to creating raffles
+- Raffle ticket sales tax
 
 
 ####  [Non-Custodial Loans](../loans)
-- **list nfts or ibc assets up as collateral**
-- **accept loan terms, or provide a counter offers**
-- **accept offers for prefered loan terms**
-- **loan default logic**
+- Create listings of nfts as collateral, permissionlessly
+- Create loan term offers on collateral listings
+- Accept or reject loan term offers.Hold collateral in escrow until repayment of fees
+- Upon loan repayment, collateral returned to ownerDefault function upon failure to repay loan within agreed upon timeframe.
+- Admin controlled contract configGovernance override contract lock via SudoMsg
+- Static fee to create a loan listingRepaid interest tax % enforced
 
 #### [Sign-in Methods](./atlas-dapp/sign-in-options) - *non-custodial methods to connect & participate*
 #### [Parameters](./atlas-dapp/fees-and-params) - *all parameters active for the dapp, managed by atlasDAO governance workflow*

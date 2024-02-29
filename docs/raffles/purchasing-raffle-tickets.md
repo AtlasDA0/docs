@@ -5,15 +5,17 @@ description: Explore all available raffles at the raffle dashboard.
 
 # Purchasing Raffle Tickets
 
-To purchase tickets, click on a raffle, choose the desired number of tickets, and proceed.
+![raffleOptions!](../../static/img/purchase-ticket-1.png)
+
+To purchase tickets, click on a raffle, choose the desired number of tickets, and proceed. 
+
+
+**Currently, $STARS is the only token able to purchase raffle tickets.** Soon, a vast number of ibc native token will be able to be used to purchase tickets. 
 
 ## Select Amount of Ticket to Purchase
-raffle tickets are non-refundable, including if you are not the winner.
+Some notes on raffle tickets:
+- You cannot puchase fractions of tickets. 
+- Raffle tickets are non-refundable, including if you are not the winner.
 
-## 
-
-### Terms:
-
-* NFTs held in escrow can be claimed by the winner or creator (in case of no ticket sales) post-draw.
 
 ## [Roadmap](../introduction/atlas-dapp/roadmap)

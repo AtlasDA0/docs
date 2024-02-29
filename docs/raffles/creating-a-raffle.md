@@ -4,13 +4,14 @@ sidebar_position: 2
 
 # Creating A Raffle
 
-Initiate a raffle by selecting an NFT from your collection, custom parameters for extended control of your raffle. Parameters include:
-
-* **Raffle duration:** length of time raffle tickets can be purchased
-* **Maximum raffle participants:** max number of raffle tickets for sale
-* **Price per ticket:** how much you want each ticket to cost
+Initiate a raffle by selecting an NFT from your collection, custom parameters for extended control of your raffle. 
+![CreateRaffle!](../../static/img/create-raffles.png)
+Parameters include:
+* **Raffle Start Time & Date:** When ticket sales begin
+* **Raffle End Time & Date:** When ticket sales end
+* **Ticket Supply:** total supply of tickets (defaults to 100,000 if no value is provided)
+* **Ticket Price:** Minimum raffle ticket cost is 1 Stars
 * **Asset for ticket purchase:** what token do you want tickets to be purchased in
-
-Maximum raffle participants & limit per wallet address are optional parameters to set for a raffle, and if ommitted, there is no limit to how many tickets may be purchased for that raffle.
+![raffleOptions!](../../static/img/raffle-options.png)
 
 ## [Roadmap](../introduction/atlas-dapp/roadmap)
