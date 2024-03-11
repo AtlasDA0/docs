@@ -1,46 +1,23 @@
-# Atlas Dapp docs
+# Code of conduct
 
-This website is built using [Docusaurus 2](https://docusaurus.io/).
+Be kind to one another.
 
-## Contributing
+> Good walkers leave no track.  
+> Good counters don’t use their fingers.  
+> The best door’s unlocked and unopened.  
+> The best knot’s not in a rope and can’t be untied.
+>
+> So wise souls are good at caring for people,  
+> never turning their back on anyone.  
+> They’re good at looking after things,  
+> never turning their back on anything.  
+> There’s a light hidden here.
+>
+> Good people teach people who aren’t good yet;  
+> the less good are the makings of the good.  
+> Anyone who doesn’t respect a teacher  
+> or cherish a student  
+> may be clever, but has gone astray.  
+> There’s a deep mystery here.
 
-Interested in contributing to Atlas DAO? Check out [CONTRIBUTING.md](./CONTRIBUTING.md).
-
-
-### Installation
-
-```
-$ yarn
-```
-
-### Local Development
-
-```
-$ yarn start
-```
-
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
-
-### Build
-
-```
-$ yarn build
-```
-
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
-
-### Deployment
-
-Using SSH:
-
-```
-$ USE_SSH=true yarn deploy
-```
-
-Not using SSH:
-
-```
-$ GIT_USER=<Your GitHub username> yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+- [Tao Te Ching (Ursula Le Guin transaltion)](https://github.com/lovingawareness/tao-te-ching/blob/master/Ursula%20K%20Le%20Guin.md)
